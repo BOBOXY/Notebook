@@ -117,7 +117,7 @@ git clone git@github.com:BOBOXY/Notebook.git
 
 2 `git commit -m 'First time'`
 
-3 `git push origin main`
+3 `git push origin main`/`git push`
 
 
 Ref: https://blog.csdn.net/black_sneak/article/details/139600633
