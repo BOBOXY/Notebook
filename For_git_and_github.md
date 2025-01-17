@@ -113,7 +113,7 @@ git pull origin master
 git clone git@github.com:BOBOXY/Notebook.git
 ```
 #### （2）上传代码
-1 `git add test_1.txt`
+1 `git add .`
 
 2 `git commit -m 'First time'`
 
