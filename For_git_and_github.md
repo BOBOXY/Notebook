@@ -6,10 +6,11 @@
 
 ### 2. 初始化仓库
 输入 git init 将仓库初始化Enter后返回如下图说明初始化成功
-`git init`
-
 ```
-周一擘@LEGION-Y7000P-ZhouYibo MINGW64 /f/Github file/Test 2025.1.26
+git init
+```
+```
+(-用户名-)@(-电脑名称-) MINGW64 /f/Github file/Test 2025.1.26
 $ git init
 Initialized empty Git repository in F:/Github file/Test 2025.1.26/.git/
 ```
@@ -21,16 +22,20 @@ Initialized empty Git repository in F:/Github file/Test 2025.1.26/.git/
 e.g. test_1.txt
 
 #### （2）在git上输入 git add '自己新建文件的名字'，然后再输入git commit -m '提交信息'，
-`git add test_1.txt`
 ```
-周一擘@LEGION-Y7000P-ZhouYibo MINGW64 /f/Github file/Test 2025.1.26 (main)
+git add test_1.txt
+```
+```
+(-用户名-)@(-电脑名称-) MINGW64 /f/Github file/Test 2025.1.26 (main)
 $ git add test_1.html
 fatal: pathspec 'test_1.html' did not match any files
 ```
 
-`git commit -m 'First time'`
 ```
-周一擘@LEGION-Y7000P-ZhouYibo MINGW64 /f/Github file/Test 2025.1.26 (main)
+git commit -m 'First time'
+```
+```
+(-用户名-)@(-电脑名称-) MINGW64 /f/Github file/Test 2025.1.26 (main)
 $ git commit -m 'First time'
 [main (root-commit) 345c15b] First time
  1 file changed, 0 insertions(+), 0 deletions(-)
@@ -39,7 +44,7 @@ $ git commit -m 'First time'
 
 #### （3）输入 git log 查看效果，结果如下说明提交成功
 ```
-周一擘@LEGION-Y7000P-ZhouYibo MINGW64 /f/Github file/Test 2025.1.26 (main)
+(-用户名-)@(-电脑名称-) MINGW64 /f/Github file/Test 2025.1.26 (main)
 $ git log
 commit 345c15b3a46614933662a9d4478f11a3299f974f (HEAD -> main)
 Author: QLYB985 <932893706@qq.com>
@@ -52,8 +57,10 @@ Date:   Thu Jan 16 21:21:57 2025 +0800
 #### （5）然后输入  git reset --hard '上图获取的id' ,然后再输入 git  reflog ,会发现我们新建的test.html被删除了。
 
 #### （6）修改
-`git status`
-`git diff`
+```
+git status
+git diff
+```
 
 #### （7）git 常用的命令
 
@@ -81,7 +88,9 @@ ssh-keygen -t rsa -C "932893706@qq.com"
 然后把密钥粘贴到相应位置就创建成功
 
 ### 5. 回到 Git bash，输入：ssh -T git@github.com
-`ssh -T git@github.com`
+```
+ssh -T git@github.com
+```
 本人windows PC 在此步骤报错，但先前已设置好（原因未知），并且在终端中可以查看
 
 ## 三、本地Git和Github的连接
@@ -113,11 +122,11 @@ git pull origin master
 git clone git@github.com:BOBOXY/Notebook.git
 ```
 #### （2）上传代码
-1 `git add .`
+1 ```git add .```
 
-2 `git commit -m 'First time'`
+2 ```git commit -m 'First time'```
 
-3 `git push origin main`/`git push`
+3 ```git push origin main```/```git push```
 
 
 Ref: https://blog.csdn.net/black_sneak/article/details/139600633
